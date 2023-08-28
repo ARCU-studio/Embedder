@@ -1,11 +1,13 @@
 [ResNet50 imagenet avg pooling (default)]
 file = ResNet50_imagenet_avg.onnx
+local_path = _extraction/pretrained CNN/ResNet50
 architecture = ResNet50 
 pooling = avg
 weights = imagenet
 
 [ResNet50 imagenet max pooling]
 file = ResNet50_imagenet_max.onnx
+local_path = _extraction/pretrained CNN/ResNet50
 architecture = ResNet50 
 pooling = max
 weights = imagenet
