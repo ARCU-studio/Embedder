@@ -1,0 +1,2 @@
+[extraction]
+ResNet50 max pooling = ResNet50_imagenet_max
