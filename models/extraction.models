@@ -14,3 +14,10 @@ architecture = ResNet50
 pooling = max
 weights = imagenet
 
+[ResNet101_imagenet_avg]
+name = ResNet101 imagenet avg pooling
+file = ResNet101_imagenet_avg.onnx
+local = _extraction/pretrained CNN/ResNet101
+architecture = ResNet101
+pooling = avg
+weights = imagenet

@@ -1,6 +1,4 @@
-[UMAP]
-file = ResNet50_imagenet_avg.onnx
+[test]
+name = test
+file = test
 local = _extraction/pretrained CNN/ResNet50
-architecture = ResNet50 
-pooling = avg
-weights = imagenet
