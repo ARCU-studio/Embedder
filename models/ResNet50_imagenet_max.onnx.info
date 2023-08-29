@@ -1,4 +1,0 @@
-[main]
-name = ResNet50 max pooling
-architecture = ResNet50 
-pooling = max
