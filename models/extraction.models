@@ -1,23 +1,19 @@
 [ResNet50_imagenet_avg]
 name = ResNet50 imagenet avg pooling
-file = ResNet50_imagenet_avg.onnx
-local = _extraction/pretrained CNN/ResNet50
-architecture = ResNet50 
-pooling = avg
-weights = imagenet
+path = _extraction/pretrained_CNN/ResNet50/imagenet-avg
 
 [ResNet50_imagenet_max]
 name = ResNet50 imagenet max pooling
-file = ResNet50_imagenet_max.onnx
-local = _extraction/pretrained CNN/ResNet50
-architecture = ResNet50 
-pooling = max
-weights = imagenet
+path = _extraction/pretrained_CNN/ResNet50/imagenet-max
+
+[ResNet50_random_avg]
+name = ResNet50 random avg pooling
+path = _extraction/pretrained_CNN/ResNet50/random-avg
+
+[ResNet50_random_max]
+name = ResNet50 random max pooling
+path = _extraction/pretrained_CNN/ResNet50/random-max
 
 [ResNet101_imagenet_avg]
 name = ResNet101 imagenet avg pooling
-file = ResNet101_imagenet_avg.onnx
-local = _extraction/pretrained CNN/ResNet101
-architecture = ResNet101
-pooling = avg
-weights = imagenet
+path = _extraction/pretrained_CNN/ResNet101/imagenet-avg
