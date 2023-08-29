@@ -1,64 +1,80 @@
 [ResNet50_imagenet_avg]
+group = ResNet
 name = ResNet50 imagenet avg pooling
 path = _extraction/pretrained_CNN/ResNet50/imagenet_avg
 
 [ResNet50_imagenet_max]
+group = ResNet
 name = ResNet50 imagenet max pooling
 path = _extraction/pretrained_CNN/ResNet50/imagenet_max
 
 [ResNet50_None_avg]
+group = ResNet
 name = ResNet50 None avg pooling
 path = _extraction/pretrained_CNN/ResNet50/None_avg
 
 [ResNet50_None_max]
+group = ResNet
 name = ResNet50 None max pooling
 path = _extraction/pretrained_CNN/ResNet50/None_max
 
 [ResNet101_imagenet_avg]
+group = ResNet
 name = ResNet101 imagenet avg pooling
 path = _extraction/pretrained_CNN/ResNet101/imagenet_avg
 
 [ResNet101_imagenet_max]
+group = ResNet
 name = ResNet101 imagenet max pooling
 path = _extraction/pretrained_CNN/ResNet101/imagenet_max
 
 [ResNet101_None_avg]
+group = ResNet
 name = ResNet101 None avg pooling
 path = _extraction/pretrained_CNN/ResNet101/None_avg
 
 [ResNet101_None_max]
+group = ResNet
 name = ResNet101 None max pooling
 path = _extraction/pretrained_CNN/ResNet101/None_max
 
 [VGG19_imagenet_avg]
+group = VGG
 name = VGG19 imagenet avg pooling
 path = _extraction/pretrained_CNN/VGG19/imagenet_avg
 
 [VGG19_imagenet_max]
+group = VGG
 name = VGG19 imagenet max pooling
 path = _extraction/pretrained_CNN/VGG19/imagenet_max
 
 [VGG19_None_avg]
+group = VGG
 name = VGG19 None avg pooling
 path = _extraction/pretrained_CNN/VGG19/None_avg
 
 [VGG19_None_max]
+group = VGG
 name = VGG19 None max pooling
 path = _extraction/pretrained_CNN/VGG19/None_max
 
 [VGG16_imagenet_avg]
+group = VGG
 name = VGG16 imagenet avg pooling
 path = _extraction/pretrained_CNN/VGG16/imagenet_avg
 
 [VGG16_imagenet_max]
+group = VGG
 name = VGG16 imagenet max pooling
 path = _extraction/pretrained_CNN/VGG16/imagenet_max
 
 [VGG16_None_avg]
+group = VGG
 name = VGG16 None avg pooling
 path = _extraction/pretrained_CNN/VGG16/None_avg
 
 [VGG16_None_max]
+group = VGG
 name = VGG16 None max pooling
 path = _extraction/pretrained_CNN/VGG16/None_max
 
