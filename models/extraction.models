@@ -1,6 +1,6 @@
 [ResNet50_imagenet_avg]
 group = ResNet50
-name = ResNet50 imagenet avg pooling
+name = ResNet50 | weights: imagenet | pooling: avg
 path = _extraction/pretrained_CNN/ResNet50/imagenet_avg
 
 [ResNet50_imagenet_max]
