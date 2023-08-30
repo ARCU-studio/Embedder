@@ -78,3 +78,42 @@ group = VGG16
 name = VGG16 | weights: None | pooling: max
 path = _extraction/pretrained_CNN/VGG16/None_max
 
+[InceptionV3_imagenet_avg]
+group = InceptionV3
+name = InceptionV3 | weights: imagenet | pooling: avg
+path = _extraction/pretrained_CNN/InceptionV3/imagenet_avg
+
+[InceptionV3_imagenet_max]
+group = InceptionV3
+name = InceptionV3 | weights: imagenet | pooling: max
+path = _extraction/pretrained_CNN/InceptionV3/imagenet_max
+
+[InceptionV3_None_avg]
+group = InceptionV3
+name = InceptionV3 | weights: None | pooling: avg
+path = _extraction/pretrained_CNN/InceptionV3/None_avg
+
+[InceptionV3_None_max]
+group = InceptionV3
+name = InceptionV3 | weights: None | pooling: max
+path = _extraction/pretrained_CNN/InceptionV3/None_max
+
+[Xception_imagenet_avg]
+group = Xception
+name = Xception | weights: imagenet | pooling: avg
+path = _extraction/pretrained_CNN/Xception/imagenet_avg
+
+[Xception_imagenet_max]
+group = Xception
+name = Xception | weights: imagenet | pooling: max
+path = _extraction/pretrained_CNN/Xception/imagenet_max
+
+[Xception_None_avg]
+group = Xception
+name = Xception | weights: None | pooling: avg
+path = _extraction/pretrained_CNN/Xception/None_avg
+
+[Xception_None_max]
+group = Xception
+name = Xception | weights: None | pooling: max
+path = _extraction/pretrained_CNN/Xception/None_max
