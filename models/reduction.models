@@ -1,4 +1,19 @@
-[test]
-name = test
-file = test
-local = _extraction/pretrained CNN/ResNet50
+[PCA]
+group = linear
+name = Principal Component Analysis (PCA)
+path = _reduction/linear/PCA
+
+[IncrementalPCA]
+group = linear
+name = Incremental Principal Component Analysis (IncrementalPCA)
+path = _reduction/linear/IncrementalPCA
+
+[t-SNE]
+group = non-linear
+name = t-distributed Stochastic Neighbor Embedding (t-SNE)
+path = _reduction/non-linear/t-SNE
+
+[UMAP]
+group = non-linear
+name = Uniform Manifold Approximation and Projection (UMAP)
+path = _reduction/non-linear/UMAP
